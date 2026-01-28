@@ -40,7 +40,8 @@ const Navigation = ({ activeSection, setActiveSection }) => {
 const HomeSection = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const roles = ['Developer', 'Designer', 'Creator', 'Innovator'];
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const roles = ['Developer', 'Data Scientist', 'AI Enthusiast', 'Problem Solver', 'Tech Explorer'];
   const [roleIndex, setRoleIndex] = useState(0);
 
   useEffect(() => {
@@ -203,14 +204,6 @@ const ProjectsSection = () => {
       LiveLink: ''
     },
     {
-      title: 'Suitwalk Linz Website',
-      description: 'A responsive website for Suitwalk Linz, featuring a sleek design and smooth animations. With the feature of registering for the event via Telegram.',
-      tech: ['React', 'Node.js', 'MariaDB', 'Telegram API'],
-      status: 'Completed',
-      githubLink: 'https://github.com/Zuerelas/suitwalk-linz-homepage',
-      LiveLink: 'https://suitwalk-linz.at'
-    },
-    {
       title: 'VidQ Game',
       description: 'A fun and interactive game i made for a school project, where you have to answer questions while watching a video.',
       tech: ['JavaScript', 'HTML5', 'CSS3'],
@@ -219,17 +212,9 @@ const ProjectsSection = () => {
       LiveLink: 'https://vidq.xandll.com/'
     },
     {
-      title: 'Suitwalk Linz Rework',
-      description: 'A complete rework of the Suitwalk Linz website using modern web technologies and a focus on user experience.',
-      tech: ['React', 'TypeScript', 'Node.js', 'Postgresql', 'Telegram API', 'Google Login API'],
-      status: 'In Progress',
-      githubLink: '',
-        LiveLink: ''
-    },
-    {
       title: 'Dynamic Ordering System',
-      description: 'Windows App for Events to manage orders dynamically with real-time updates and reporting features.',
-      tech: ['React', 'Tauri', 'Rust-backend', 'SQLite'],
+      description: 'Windows App for Events to manage orders dynamically with real-time updates. With integrated Connection for Waiters on Mobile Devices.',
+      tech: ['C#', 'SQLite', 'TypeScript', 'React'],
       status: 'In Progress',
       githubLink: '',
         LiveLink: ''
