@@ -74,6 +74,8 @@ const HomeSection = () => {
             Hi, I'm <span className="name-highlight">Delta</span>
           </h1>
 
+          <h2 className="hero-name">Elias Pöschl</h2>
+
           <div className="hero-subtitle">
             <span className="static-text">I'm a </span>
             <span className="dynamic-text">{displayText}</span>
@@ -118,11 +120,11 @@ const AboutSection = () => {
       skills: [
         { name: 'HTML5', level: 100, icon: '🌐' },
         { name: 'CSS/SCSS', level: 95, icon: '🎨' },
-        { name: 'JavaScript', level: 85, icon: '🟨' },
+        { name: 'JavaScript', level: 95, icon: '🟨' },
         { name: 'TypeScript', level: 85, icon: '🔷' },
         { name: 'React', level: 95, icon: '⚛️' },
+        { name: 'Node.js', level: 85, icon: '🟢' },
         { name: 'Angular', level: 55, icon: '🔵' },
-        { name: 'Node.js', level: 75, icon: '🟢' },
       ],
     },
     {
@@ -131,8 +133,8 @@ const AboutSection = () => {
         { name: 'C/C++', level: 95, icon: '💻' },
         { name: 'Python', level: 90, icon: '🐍' },
         { name: 'SQL', level: 85, icon: '🗄️' },
+        { name: 'C#', level: 75, icon: '🔵' },
         { name: 'Rust', level: 70, icon: '🦀' },
-        { name: 'C#', level: 55, icon: '🔵' },
         { name: 'Java', level: 35, icon: '☕' },
         { name: 'Flutter', level: 30, icon: '🦋' },
       ],
@@ -214,7 +216,7 @@ const ProjectsSection = () => {
     {
       title: 'Dynamic Ordering System',
       description: 'Windows App for Events to manage orders dynamically with real-time updates. With integrated Connection for Waiters on Mobile Devices.',
-      tech: ['C#', 'SQLite', 'TypeScript', 'React'],
+      tech: ['C#', '.NET', 'SQLite', 'TypeScript', 'React'],
       status: 'In Progress',
       githubLink: '',
         LiveLink: ''
