@@ -1,12 +1,52 @@
-# React + Vite
+# Homepage Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio of **Elias Pöschl (Delta)** — built with React and Vite.
 
-Currently, two official plugins are available:
+The site is a single-page app with hash-based navigation between a home, about,
+and projects view, plus an imprint and privacy policy page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
 
-## Expanding the ESLint configuration
+- [React 18](https://react.dev/)
+- [Vite 7](https://vite.dev/) with the SWC React plugin
+- [lucide-react](https://lucide.dev/) icons
+- Plain CSS (glassmorphism design system in `src/styles/App.css`)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+```bash
+npm install      # install dependencies
+npm run dev      # start the dev server with HMR
+npm run build    # production build into dist/
+npm run preview  # preview the production build
+npm run lint     # run ESLint
+```
+
+## Project structure
+
+```
+.
+├── public/              # static assets served as-is (favicons, manifest, .htaccess)
+├── src/
+│   ├── assets/          # images imported by components (logo)
+│   ├── components/      # one React component per section
+│   │   ├── Navigation.jsx
+│   │   ├── HomeSection.jsx
+│   │   ├── AboutSection.jsx
+│   │   ├── ProjectsSection.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ImprintSection.jsx
+│   │   └── PrivacyPolicySection.jsx
+│   ├── dev/             # React Buddy (JetBrains) IDE helper files
+│   ├── styles/          # global stylesheets
+│   │   ├── App.css      # design system + all component styles
+│   │   └── index.css
+│   ├── App.jsx          # composition root + hash routing
+│   └── main.jsx         # React entry point
+├── index.html
+└── vite.config.js
+```
+
+## License
+
+See [LICENSE](LICENSE).
