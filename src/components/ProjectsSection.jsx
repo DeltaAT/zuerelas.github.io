@@ -18,11 +18,11 @@ const projects = [
     LiveLink: 'https://vidq.xandll.com/'
   },
   {
-    title: 'Dynamic Ordering System',
+    title: 'Serva',
     description: 'Windows App for Events to manage orders dynamically with real-time updates. With integrated Connection for Waiters on Mobile Devices.',
-    tech: ['C#', '.NET', 'SQLite', 'TypeScript', 'React'],
+    tech: ['tauri', 'SQLite', 'TypeScript', 'React'],
     status: 'In Progress',
-    githubLink: '',
+    githubLink: 'https://github.com/DeltaAT/Serva',
     LiveLink: ''
   }
 ];
@@ -44,6 +44,7 @@ const ProjectsSection = () => {
                 <div className="project-header">
                   <h3 className="project-title">{project.title}</h3>
                   <span className={`status-badge ${project.status.toLowerCase().replace(' ', '-')}`}>
+                    <span className="status-dot" />
                     {project.status}
                   </span>
                 </div>

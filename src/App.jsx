@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './styles/App.css';
 
+import Background from './components/Background';
 import Navigation from './components/Navigation';
 import HomeSection from './components/HomeSection';
 import AboutSection from './components/AboutSection';
@@ -40,7 +41,7 @@ const App = () => {
   const renderSection = () => {
     switch (activeSection) {
       case 'home':
-        return <HomeSection />;
+        return <HomeSection setActiveSection={setActiveSection} />;
       case 'about':
         return <AboutSection />;
       case 'projects':
@@ -50,12 +51,13 @@ const App = () => {
       case 'privacy':
         return <PrivacyPolicySection />;
       default:
-        return <HomeSection />;
+        return <HomeSection setActiveSection={setActiveSection} />;
     }
   };
 
   return (
     <div className={`app ${isLoaded ? 'loaded' : ''}`}>
+      <Background />
       <Navigation activeSection={activeSection} setActiveSection={setActiveSection} />
 
       <main className="main-content">
