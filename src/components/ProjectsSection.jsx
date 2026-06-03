@@ -5,7 +5,7 @@ const projects = [
     title: 'Serva',
     description: 'Windows App for Events to manage orders dynamically with real-time updates. With integrated Connection for Waiters on Mobile Devices.',
     tech: ['tauri', 'SQLite', 'TypeScript', 'React'],
-    status: 'In Progress',
+    status: 'Completed',
     githubLink: 'https://github.com/DeltaAT/Serva',
     LiveLink: 'https://serva.delta-developing.com/'
   },
