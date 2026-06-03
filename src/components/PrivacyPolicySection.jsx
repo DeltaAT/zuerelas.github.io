@@ -8,8 +8,8 @@ const PrivacyPolicySection = () => {
           <h3>1. Introduction</h3>
           <p>
             This privacy policy explains how we handle your personal data in compliance with the Austrian Data Protection Act (Datenschutzgesetz - DSG)
-            and the General Data Protection Regulation (GDPR - EU 2016/679). Since this website is hosted on GitHub Pages,
-            please also review <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub's Privacy Statement</a>.
+            and the General Data Protection Regulation (GDPR - EU 2016/679). Since this website is hosted by netcup GmbH,
+            please also review <a href="https://www.netcup.com/en/contact/privacy-policy" target="_blank" rel="noopener noreferrer">netcup's Privacy Policy</a>.
           </p>
 
           <h3>2. Data Controller (Verantwortlicher)</h3>
@@ -21,7 +21,7 @@ const PrivacyPolicySection = () => {
           <h3>3. Scope of Data Processing</h3>
           <p>
             This website does not actively collect personal data through forms or registration mechanisms.
-            However, your browser automatically transmits certain technical information to GitHub's servers.
+            However, your browser automatically transmits certain technical information to our hosting provider's servers.
           </p>
 
           <h3>4. Automatically Collected Information</h3>
@@ -43,20 +43,20 @@ const PrivacyPolicySection = () => {
             Our legitimate interest is to ensure website functionality, security, and to analyze usage patterns for improvement.
           </p>
 
-          <h3>6. GitHub Pages and Third-Party Hosting</h3>
+          <h3>6. Hosting and Third-Party Hosting</h3>
           <p>
-            This website is hosted on GitHub Pages, a static hosting service operated by GitHub, Inc.
-            GitHub may collect information about your visit in accordance with their privacy policy and terms of service.
-            GitHub is certified under the EU-US Data Privacy Framework. For details, see:
+            This website is hosted by netcup GmbH (Emmy-Noether-Straße 10, 76131 Karlsruhe, Germany), a hosting provider based in the European Union.
+            netcup processes data on our behalf as a processor (Auftragsverarbeiter) pursuant to Art. 28 GDPR and may collect technical
+            information about your visit (such as server log files) in accordance with their privacy policy. For details, see:
           </p>
           <ul style={{ color: 'var(--text-secondary)', marginLeft: '20px', marginTop: '10px' }}>
-            <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a></li>
-            <li><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" target="_blank" rel="noopener noreferrer">GitHub Terms of Service</a></li>
+            <li><a href="https://www.netcup.com/en/contact/privacy-policy" target="_blank" rel="noopener noreferrer">netcup Privacy Policy</a></li>
+            <li><a href="https://www.netcup.com/en/contact/general-terms-and-conditions" target="_blank" rel="noopener noreferrer">netcup General Terms and Conditions</a></li>
           </ul>
 
           <h3>7. Cookies and Tracking Technologies</h3>
           <p>
-            <strong>This website does not set cookies.</strong> However, GitHub Pages may set cookies for technical purposes.
+            <strong>This website does not set cookies.</strong> However, the hosting infrastructure may set cookies for technical purposes.
             Third-party services linked from this website (GitHub, LinkedIn, etc.) may set their own cookies.
             We recommend reviewing their privacy policies for information about cookie usage.
           </p>
@@ -77,7 +77,7 @@ const PrivacyPolicySection = () => {
 
           <h3>9. Data Retention</h3>
           <p>
-            Technical data collected by GitHub is retained in accordance with GitHub's retention policies.
+            Technical data collected by netcup (e.g. server log files) is retained in accordance with netcup's retention policies.
             We do not retain any personal data longer than necessary for the stated purposes.
           </p>
 
@@ -114,13 +114,13 @@ const PrivacyPolicySection = () => {
           <h3>12. Data Security</h3>
           <p>
             We take reasonable technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction.
-            Data transmission to GitHub's servers is encrypted using HTTPS/TLS protocols.
+            Data transmission to our hosting provider's servers is encrypted using HTTPS/TLS protocols.
           </p>
 
           <h3>13. Analytics and Logging</h3>
           <p>
             This website does not use analytics tools or tracking pixels. No tracking data is collected or stored by the site owner.
-            GitHub may retain access logs in accordance with their privacy policy.
+            netcup may retain access logs in accordance with their privacy policy.
           </p>
 
           <h3>14. Changes to This Privacy Policy</h3>

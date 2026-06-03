@@ -17,11 +17,10 @@ const ImprintSection = () => {
 
           <h3>Hosting Provider:</h3>
           <p>
-            <strong>Service:</strong> GitHub Pages<br />
-            <strong>Operator:</strong> GitHub, Inc.<br />
-            <strong>Address:</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA<br />
-            <strong>Website:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a><br />
-            <strong>Terms:</strong> <a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">GitHub Pages Documentation</a>
+            <strong>Operator:</strong> netcup GmbH<br />
+            <strong>Address:</strong> Emmy-Noether-Straße 10, 76131 Karlsruhe, Germany<br />
+            <strong>Website:</strong> <a href="https://www.netcup.com" target="_blank" rel="noopener noreferrer">www.netcup.com</a><br />
+            <strong>Privacy:</strong> <a href="https://www.netcup.com/en/contact/privacy-policy" target="_blank" rel="noopener noreferrer">netcup Privacy Policy</a>
           </p>
 
           <h3>Liability for Content:</h3>

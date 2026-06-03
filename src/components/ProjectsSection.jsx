@@ -2,6 +2,14 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Serva',
+    description: 'Windows App for Events to manage orders dynamically with real-time updates. With integrated Connection for Waiters on Mobile Devices.',
+    tech: ['tauri', 'SQLite', 'TypeScript', 'React'],
+    status: 'In Progress',
+    githubLink: 'https://github.com/DeltaAT/Serva',
+    LiveLink: 'https://serva.delta-developing.com/'
+  },
+  {
     title: 'This Website',
     description: 'A modern portfolio website showcasing my skills and projects.',
     tech: ['React', 'CSS3', 'JavaScript'],
@@ -16,14 +24,6 @@ const projects = [
     status: 'Completed',
     githubLink: 'https://github.com/Xandll/video-quiz',
     LiveLink: 'https://vidq.xandll.com/'
-  },
-  {
-    title: 'Serva',
-    description: 'Windows App for Events to manage orders dynamically with real-time updates. With integrated Connection for Waiters on Mobile Devices.',
-    tech: ['tauri', 'SQLite', 'TypeScript', 'React'],
-    status: 'In Progress',
-    githubLink: 'https://github.com/DeltaAT/Serva',
-    LiveLink: ''
   }
 ];
 
